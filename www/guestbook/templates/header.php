@@ -6,6 +6,9 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="webmention" href="https://webmention.io/lifeofpablo.com/webmention" />
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:Light:300,400,600,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+      rel="stylesheet">
 	<title>Pablo's Guestbook</title>
 
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css"> -->
@@ -34,19 +37,3 @@
 <div class="navigation-banner"></div>
 </div>
 	<h1>Guestbook</h1>
-<?php
-if($_SERVER['REMOTE_USER'])
-echo 'Hey , ' . $_SERVER['REMOTE_USER'] . ' ! <a href="https://auth.lifeofpablo.com/login?url=https://lifeofpablo.com/guestbook">Not you?</a>';
-    else
-    echo 'Please <a href="https://auth.lifeofpablo.com/login?url=https://lifeofpablo.com/guestbook">Sign in</a>';
-			                            ?>
-
-<?php 
-function display_url($url) {
-  # remove scheme and www.
-  $url = preg_replace('/^https?:\/\/(www\.)?/', '', $url);
-  # if the remaining string has no path components but has a trailing slash, remove the trailing slash
-  $url = preg_replace('/^([^\/]+)\/$/', '$1', $url);
-  return $url;
-}
-?>
