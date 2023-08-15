@@ -3,10 +3,10 @@
 <img src="https://static.lifeofpablo.com/media/images/guestbook/book.png">
 <h3>Welcome to my guestbook!</h3>
 
-Send a webmention to <code>https://lifeofpablo.com/guestbook/</code> to sign the guestbook!
+Send a webmention to https://lifeofpablo.com/guestbook/ to sign the guestbook!
 
 
-Do you see a bug? How can I make it better? Email me at <a href="mailto:hello@lifeofpablo.com">hello@lifeofpablo.com.</a>
+<p>Do you see a bug? How can I make it better? Email me at <a href="mailto:hello@lifeofpablo.com">hello@lifeofpablo.com.</a></p>
 
 <script>
 var target_url = "https://lifeofpablo.com/guestbook/";

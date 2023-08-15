@@ -14,8 +14,8 @@
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css"> -->
 
 	<link rel="stylesheet" href="/media/themes/pablo.css">
-
 	<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://pabs.tech/media/css/tachyons.css">
 <script src="https://kit.fontawesome.com/2ad0b8bc3e.js" crossorigin="anonymous"></script>
 </head>
 
