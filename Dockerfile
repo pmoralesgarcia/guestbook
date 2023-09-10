@@ -12,7 +12,7 @@ RUN apt update -y && \
 
 VOLUME /var/www/guestbook
 
-WORKDIR /var/www/guestbook
+WORKDIR ./www/guestbook
 
 
 COPY ./nginx/guestbook.conf /etc/nginx/sites-enabled/default
